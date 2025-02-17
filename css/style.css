@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand img{
+    width: 60px;
+}
+
+.nav-serch img{
+    width: 35px;
+}
+
+.content{
+    width: 400px;
+}
+.ins-1{
+    margin-left: -550px !important;
+}
+.ins-2{
+    margin-top: 280px;
+    margin-left: -630px;
+}

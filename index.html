@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoool</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="image/logo.png">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-sticky top-0 z-3">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="image/logo.png" alt=""></a>
+  
+        <div class="offcanvas navbar-offcanvas offcanvas-start " id="navbarNavAltMarkup">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel"><img src="image/logo.png" alt=""
+                style="width: 60px;"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+  
+          <div class="offcanvas-body">
+            <div class="navbar-nav m-auto ">
+              <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i> Home</a>
+  
+              <div class="dropdown">
+                <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Course
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Web Design</a></li>
+                  <li><a class="dropdown-item" href="#">Mobile Application</a></li>
+                  <li><a class="dropdown-item" href="#">Network</a></li>
+                  <li><a class="dropdown-item" href="#">Cyber Security</a></li>
+                  <li><a class="dropdown-item" href="#">Programing</a></li>
+                </ul>
+              </div>
+  
+              <a class="nav-link" href="#"><i class="fa-solid fa-user"></i> Student</a>
+              <a class="nav-link" href="#"><i class="fa-solid fa-diagram-project"></i> Projrct</a>
+              <a class="nav-link" href="#"><i class="fa-solid fa-chalkboard-user"></i> Teacher</a>
+              <a class="nav-link" href="#"><i class="fa-regular fa-address-card"></i> About</a>
+              <a class="nav-link" href="#"><i class="fa-regular fa-address-book"></i> Contact</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="nav-serch d-flex gap-3 align-items-center">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Button trigger modal -->
+          <i type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa-duotone fa-solid fa-magnifying-glass"></i>
+          </i>
+  
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search..." aria-label="Recipient's username"
+                    aria-describedby="button-addon2">
+                  <button class="btn " type="button" id="button-addon2"><i
+                      class="fa-duotone fa-solid fa-magnifying-glass"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <i class="fa-regular fa-bell position-relative">
+            <span class="position-absolute rounded-5 bg-danger text-light"
+              style="margin-left: -9px; margin-top: -8px;">4</span>
+          </i>
+          <img class="rounded-5" src="image/Me.jpg" alt="">
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="container my-5">
+        <div class="row d-flex justify-content-between">
+          <div class="col-lg-6 " data-aos="fade-right" data-aos-delay="200">
+  
+            <div class="content">
+              <h5><span class="badge text-bg-danger">Education</span></h5>
+              <h1 class="fw-bold display-5 text-dark">Limitless learning at your fingertips</h1>
+              <p>Education is the foundation of personal and societal growth, providing individuals with the knowledge, skills, and critical thinking abilities necessary for success. It begins in early childhood, where basic literacy and numeracy are introduced, and continues through primary, secondary, and higher education, where students specialize in various fields.</p>
+  
+              <button type="button" class="btn btn-danger">Get Start</button>
+              <button type="button" class="btn border-2 border-black ms-3"><i class="fa-solid fa-play"></i> Watch
+                Video</button>
+            </div>
+          </div>
+          <div class="col-lg-6 position-relative" data-aos="fade-left" data-aos-delay="200">
+            <div class="banner">
+              <img src="image/herobanner-lina.png" alt="">
+              <img class="ins-1 position-absolute " src="image//frame-instructor.png" alt="">
+              <img class="ins-2 position-absolute" src="image/frame-student.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="row gy-3 py-lg-12">
+        <div class="col-6 col-lg-3" data-aos="flip-left">
+          <div class="d-flex justify-content-center align-items-center bg-danger py-3 rounded-2">
+            <i class="fa-solid fa-desktop display-3 text-light"></i>
+            <div class="ms-3">
+              <h3 class="mb-0 text-light">100+</h3>
+              <p class="mb-0 text-light">Study Courses</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3" data-aos="flip-left">
+          <div class="d-flex justify-content-center align-items-center bg-body-secondary py-3 rounded-2">
+            <i class="fa-solid fa-user-secret display-3 text-dark"></i>
+            <div class="ms-3">
+              <h3 class="mb-0">100+</h3>
+              <p class="mb-0">Expert Teacher</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3" data-aos="flip-left">
+          <div class="d-flex justify-content-center align-items-center bg-primary-subtle py-3 rounded-2">
+            <i class="fa-solid fa-graduation-cap display-3 text-dark"></i>
+            <div class="ms-3">
+              <h3 class="mb-0">100+</h3>
+              <p class="mb-0">Students</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3" data-aos="flip-left">
+          <div class="d-flex justify-content-center align-items-center bg-warning py-3 rounded-2">
+            <i class="fa-solid fa-file-export display-3 text-success"></i>
+            <div class="ms-3">
+              <h3 class="mb-0 text-success">100+</h3>
+              <p class="mb-0 text-success">Certified</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="container mt-5">
+      <div class="my-5 mt-lg-0 text-center">
+        <h2 class="display-5 fw-bold">Most Popular Courses</h2>
+        <p>Choose courses from specialist organizations</p>
+      </div>
+      <nav class=" py-3 rounded-3 mb-3 mb-lg-0">
+        <div class="nav nav-pills nav-pills-bg-soft gap-3 justify-content-center" id="nav-tab" role="tablist">
+          <button class="btn btn-dark" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button"
+            role="tab" aria-controls="nav-home" aria-selected="true" tabindex="-1">
+            Web Design
+          </button>
+          <button class="btn btn-dark active" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+            type="button" role="tab" aria-controls="nav-profile" aria-selected="false" tabindex="-1">
+            Mobile Application
+          </button>
+          <button class="btn btn-dark" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+            type="button" role="tab" aria-controls="nav-contact" aria-selected="false" tabindex="-1">
+            Programming
+          </button>
+          <button class="btn btn-dark" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled"
+            type="button" role="tab" aria-controls="nav-disabled" aria-selected="false" tabindex="-1">
+            Cyber Security
+          </button>
+        </div>
+      </nav>
+  
+          <!-- tap web -->
+  
+      <div class="tab-content my-lg-3" id="nav-tabContent">
+        <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-describedby="nav-home-tab" tabindex="0">
+          <div class="row gy-4">
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="image/course-html.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <span class="badge bg-danger text-light">Beginner</span>
+                    <i class="fa-solid fa-bookmark"></i>
+                  </div>
+                  <h4 class="my-2">HTML Web Design</h4>
+                  <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                  <div class="d-flex align-items-center pt-2">
+                    <div class="text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="mb-0 ms-2">(120480)</p>
+                    <h4 class="ms-auto mb-0 text-danger">$59.00</h4>
+                  </div>
+  
+                </div>
+                <div class="card-footer border-1 border-top-1 pb-0">
+                  <div class="d-flex">
+                    <i class="fa-solid fa-clock mt-1"></i>
+                    <p class="ms-2">03h 30m - 05h 30m</p>
+                    <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="image/course-css.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <span class="badge bg-danger text-light">Beginner</span>
+                    <i class="fa-solid fa-bookmark"></i>
+                  </div>
+                  <h4 class="my-2"> Web Design</h4>
+                  <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                  <div class="d-flex align-items-center pt-2">
+                    <div class="text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p class="mb-0 ms-2">(33099)</p>
+                    <h4 class="ms-auto mb-0 text-dark">$69.00</h4>
+                  </div>
+  
+                </div>
+                <div class="card-footer border-1 border-top-1 pb-0">
+                  <div class="d-flex">
+                    <i class="fa-solid fa-clock mt-1"></i>
+                    <p class="ms-2">03h 30m - 05h 30m</p>
+                    <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+  
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="image/course-laravel.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <span class="badge bg-danger text-light">Beginner</span>
+                    <i class="fa-solid fa-bookmark"></i>
+                  </div>
+                  <h4 class="my-2">Laravel</h4>
+                  <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                  <div class="d-flex align-items-center pt-2">
+                    <div class="text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p class="mb-0 ms-2">(30099)</p>
+                    <h4 class="ms-auto mb-0 text-danger">$120.00</h4>
+                  </div>
+  
+                </div>
+                <div class="card-footer border-1 border-top-1 pb-0">
+                  <div class="d-flex">
+                    <i class="fa-solid fa-clock mt-1"></i>
+                    <p class="ms-2">03h 30m - 05h 30m</p>
+                    <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="image/course-javascript.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <span class="badge bg-info text-light">Advanced</span>
+                    <i class="fa-solid fa-bookmark"></i>
+                  </div>
+                  <h4 class="my-2">Javascript</h4>
+                  <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                  <div class="d-flex align-items-center pt-2">
+                    <div class="text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-light fa-star"></i>
+                      <i class="fa-light fa-star"></i>
+                    </div>
+                    <p class="mb-0 ms-2">(2199)</p>
+                    <h4 class="ms-auto mb-0 text-danger">$79.00</h4>
+                  </div>
+  
+                </div>
+                <div class="card-footer border-1 border-top-1 pb-0">
+                  <div class="d-flex">
+                    <i class="fa-solid fa-clock mt-1"></i>
+                    <p class="ms-2">03h 30m - 05h 30m</p>
+                    <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="image/course-react.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <span class="badge bg-success text-light">Coming soon</span>
+                    <i class="fa-solid fa-bookmark"></i>
+                  </div>
+                  <h4 class="my-2">React JS</h4>
+                  <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                  <div class="d-flex align-items-center pt-2">
+                    <div class="text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-light fa-star"></i>
+                      <i class="fa-light fa-star"></i>
+                      <i class="fa-light fa-star"></i>
+                    </div>
+                    <p class="mb-0 ms-2">(0)</p>
+                    <h4 class="ms-auto mb-0 text-dark">$129.00</h4>
+                  </div>
+  
+                </div>
+                <div class="card-footer border-1 border-top-1 pb-0">
+                  <div class="d-flex">
+                    <i class="fa-solid fa-clock mt-1"></i>
+                    <p class="ms-2">03h 30m - 05h 30m</p>
+                    <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+            <div class="col-md-6 col-lg-3">
+  
+              <div class="card">
+                <img src="image/course-node.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <span class="badge bg-success text-light">Coming soon</span>
+                    <i class="fa-solid fa-bookmark"></i>
+                  </div>
+                  <h4 class="my-2">Node JS</h4>
+                  <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                  <div class="d-flex align-items-center pt-2">
+                    <div class="text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p class="mb-0 ms-2">(33099)</p>
+                    <h4 class="ms-auto mb-0 text-dark">$119.00</h4>
+                  </div>
+  
+                </div>
+                <div class="card-footer border-1 border-top-1 pb-0">
+                  <div class="d-flex">
+                    <i class="fa-solid fa-clock mt-1"></i>
+                    <p class="ms-2">03h 30m - 05h 30m</p>
+                    <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="image/course-angular.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <span class="badge bg-info text-light">Advanced</span>
+                    <i class="fa-solid fa-bookmark"></i>
+                  </div>
+                  <h4 class="my-2">Angular</h4>
+                  <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                  <div class="d-flex align-items-center pt-2">
+                    <div class="text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p class="mb-0 ms-2">(33099)</p>
+                    <h4 class="ms-auto mb-0 text-dark">$99.00</h4>
+                  </div>
+  
+                </div>
+                <div class="card-footer border-1 border-top-1 pb-0">
+                  <div class="d-flex">
+                    <i class="fa-solid fa-clock mt-1"></i>
+                    <p class="ms-2">03h 30m - 05h 30m</p>
+                    <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="image/bootstrap.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <span class="badge bg-danger text-light">Beginner</span>
+                    <i class="fa-solid fa-bookmark"></i>
+                  </div>
+                  <h4 class="my-2">Web Design</h4>
+                  <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                  <div class="d-flex align-items-center pt-2">
+                    <div class="text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p class="mb-0 ms-2">(33099)</p>
+                    <h4 class="ms-auto mb-0 text-dark">$69.00</h4>
+                  </div>
+  
+                </div>
+                <div class="card-footer border-1 border-top-1 pb-0">
+                  <div class="d-flex">
+                    <i class="fa-solid fa-clock mt-1"></i>
+                    <p class="ms-2">03h 30m - 05h 30m</p>
+                    <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+                <!-- tab-mobile -->
+  
+      <div class="tab-pane fade active show" id="nav-profile" role="tabpanel" aria-describedby="nav-profile-tab" tabindex="0">
+        <div class="row gy-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img src="image/10.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <span class="badge bg-success text-light">Advanced</span>
+                  <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <h4 class="my-2">SQL Database</h4>
+                <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                <div class="d-flex align-items-center pt-2">
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <p class="mb-0 ms-2">(33099)</p>
+                  <h4 class="ms-auto mb-0 text-dark">$80.00</h4>
+                </div>
+  
+              </div>
+              <div class="card-footer border-1 border-top-1 pb-0">
+                <div class="d-flex">
+                  <i class="fa-solid fa-clock mt-1"></i>
+                  <p class="ms-2">03h 30m - 05h 30m</p>
+                  <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img src="image/2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <span class="badge bg-info text-light">Advanced</span>
+                  <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <h4 class="my-2">Responsive Web Design</h4>
+                <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                <div class="d-flex align-items-center pt-2">
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <p class="mb-0 ms-2">(33099)</p>
+                  <h4 class="ms-auto mb-0 text-dark">$100.00</h4>
+                </div>
+  
+              </div>
+              <div class="card-footer border-1 border-top-1 pb-0">
+                <div class="d-flex">
+                  <i class="fa-solid fa-clock mt-1"></i>
+                  <p class="ms-2">03h 30m - 05h 30m</p>
+                  <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img src="image/3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <span class="badge bg-warning text-light">Advanced</span>
+                  <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <h4 class="my-2">Front End Pack</h4>
+                <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                <div class="d-flex align-items-center pt-2">
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <p class="mb-0 ms-2">(33099)</p>
+                  <h4 class="ms-auto mb-0 text-dark">$400.00</h4>
+                </div>
+  
+              </div>
+              <div class="card-footer border-1 border-top-1 pb-0">
+                <div class="d-flex">
+                  <i class="fa-solid fa-clock mt-1"></i>
+                  <p class="ms-2">03h 30m - 05h 30m</p>
+                  <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img src="image/4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <span class="badge bg-success text-light">Advanced</span>
+                  <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <h4 class="my-2">Node JS</h4>
+                <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                <div class="d-flex align-items-center pt-2">
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <p class="mb-0 ms-2">(33099)</p>
+                  <h4 class="ms-auto mb-0 text-dark">$120.00</h4>
+                </div>
+  
+              </div>
+              <div class="card-footer border-1 border-top-1 pb-0">
+                <div class="d-flex">
+                  <i class="fa-solid fa-clock mt-1"></i>
+                  <p class="ms-2">03h 30m - 05h 30m</p>
+                  <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img src="image/5.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <span class="badge bg-danger text-light">Advanced</span>
+                  <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <h4 class="my-2">Security</h4>
+                <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                <div class="d-flex align-items-center pt-2">
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <p class="mb-0 ms-2">(33099)</p>
+                  <h4 class="ms-auto mb-0 text-dark">$100.00</h4>
+                </div>
+              </div>
+              <div class="card-footer border-1 border-top-1 pb-0">
+                <div class="d-flex">
+                  <i class="fa-solid fa-clock mt-1"></i>
+                  <p class="ms-2">03h 30m - 05h 30m</p>
+                  <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img src="image/6.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <span class="badge bg-warning text-light">Advanced</span>
+                  <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <h4 class="my-2">API & Cloud</h4>
+                <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                <div class="d-flex align-items-center pt-2">
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <p class="mb-0 ms-2">(33099)</p>
+                  <h4 class="ms-auto mb-0 text-dark">$90.00</h4>
+                </div>
+  
+              </div>
+              <div class="card-footer border-1 border-top-1 pb-0">
+                <div class="d-flex">
+                  <i class="fa-solid fa-clock mt-1"></i>
+                  <p class="ms-2">03h 30m - 05h 30m</p>
+                  <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- tab program -->
+  
+      <div class="tab-pane fade active show" id="nav-contact" role="tabpanel" aria-describedby="nav-contact-tab" tabindex="0">
+        <div class="row gy-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img src="image/course-python.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <span class="badge bg-danger text-light">Advanced</span>
+                  <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <h4 class="my-2">Python</h4>
+                <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                <div class="d-flex align-items-center pt-2">
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <p class="mb-0 ms-2">(33099)</p>
+                  <h4 class="ms-auto mb-0 text-dark">$100.00</h4>
+                </div>
+              </div>
+              <div class="card-footer border-1 border-top-1 pb-0">
+                <div class="d-flex">
+                  <i class="fa-solid fa-clock mt-1"></i>
+                  <p class="ms-2">03h 30m - 05h 30m</p>
+                  <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img src="image/course-gatsby.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <span class="badge bg-danger text-light">Advanced</span>
+                  <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <h4 class="my-2">Gatsby</h4>
+                <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                <div class="d-flex align-items-center pt-2">
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <p class="mb-0 ms-2">(33099)</p>
+                  <h4 class="ms-auto mb-0 text-dark">$100.00</h4>
+                </div>
+              </div>
+              <div class="card-footer border-1 border-top-1 pb-0">
+                <div class="d-flex">
+                  <i class="fa-solid fa-clock mt-1"></i>
+                  <p class="ms-2">03h 30m - 05h 30m</p>
+                  <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img src="image/course-graphql.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <span class="badge bg-danger text-light">Advanced</span>
+                  <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <h4 class="my-2">Graph QI</h4>
+                <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                <div class="d-flex align-items-center pt-2">
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <p class="mb-0 ms-2">(33099)</p>
+                  <h4 class="ms-auto mb-0 text-dark">$100.00</h4>
+                </div>
+              </div>
+              <div class="card-footer border-1 border-top-1 pb-0">
+                <div class="d-flex">
+                  <i class="fa-solid fa-clock mt-1"></i>
+                  <p class="ms-2">03h 30m - 05h 30m</p>
+                  <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img src="image/1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <span class="badge bg-danger text-light">Advanced</span>
+                  <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <h4 class="my-2">C#</h4>
+                <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                <div class="d-flex align-items-center pt-2">
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <p class="mb-0 ms-2">(33099)</p>
+                  <h4 class="ms-auto mb-0 text-dark">$100.00</h4>
+                </div>
+              </div>
+              <div class="card-footer border-1 border-top-1 pb-0">
+                <div class="d-flex">
+                  <i class="fa-solid fa-clock mt-1"></i>
+                  <p class="ms-2">03h 30m - 05h 30m</p>
+                  <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- tab cyber -->
+  
+      <div class="tab-pane fade active show" id="nav-disabled" role="tabpanel" aria-describedby="nav-disabled-tab" tabindex="0">
+        <div class="row gy-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img src="image/5.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <span class="badge bg-danger text-light">Advanced</span>
+                  <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <h4 class="my-2">Security</h4>
+                <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                <div class="d-flex align-items-center pt-2">
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <p class="mb-0 ms-2">(33099)</p>
+                  <h4 class="ms-auto mb-0 text-dark">$100.00</h4>
+                </div>
+              </div>
+              <div class="card-footer border-1 border-top-1 pb-0">
+                <div class="d-flex">
+                  <i class="fa-solid fa-clock mt-1"></i>
+                  <p class="ms-2">03h 30m - 05h 30m</p>
+                  <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img src="image/4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <span class="badge bg-danger text-light">Advanced</span>
+                  <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <h4 class="my-2">Data Analyze</h4>
+                <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                <div class="d-flex align-items-center pt-2">
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <p class="mb-0 ms-2">(33099)</p>
+                  <h4 class="ms-auto mb-0 text-dark">$100.00</h4>
+                </div>
+              </div>
+              <div class="card-footer border-1 border-top-1 pb-0">
+                <div class="d-flex">
+                  <i class="fa-solid fa-clock mt-1"></i>
+                  <p class="ms-2">03h 30m - 05h 30m</p>
+                  <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img src="image/2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <span class="badge bg-danger text-light">Advanced</span>
+                  <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <h4 class="my-2">Security</h4>
+                <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                <div class="d-flex align-items-center pt-2">
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <p class="mb-0 ms-2">(33099)</p>
+                  <h4 class="ms-auto mb-0 text-dark">$100.00</h4>
+                </div>
+              </div>
+              <div class="card-footer border-1 border-top-1 pb-0">
+                <div class="d-flex">
+                  <i class="fa-solid fa-clock mt-1"></i>
+                  <p class="ms-2">03h 30m - 05h 30m</p>
+                  <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img src="image/course-wordpress.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <span class="badge bg-danger text-light">Advanced</span>
+                  <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <h4 class="my-2">Wordpress</h4>
+                <p class="card-text mb-0">Discover start up how to create web pages.</p>
+                <div class="d-flex align-items-center pt-2">
+                  <div class="text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <p class="mb-0 ms-2">(33099)</p>
+                  <h4 class="ms-auto mb-0 text-dark">$100.00</h4>
+                </div>
+              </div>
+              <div class="card-footer border-1 border-top-1 pb-0">
+                <div class="d-flex">
+                  <i class="fa-solid fa-clock mt-1"></i>
+                  <p class="ms-2">03h 30m - 05h 30m</p>
+                  <p class="btn btn-sm btn-danger ms-auto">See more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="container-fluid mt-12 bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h2 class="fw-bold">Become an Instructer</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, quisquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis veniam illo sapiente saepe sed quia officiis illum est,
+             quasi amet eaque natus laudantium aliquam modi porro voluptatum consectetur mollitia nisi.</p>
+            <a href="" class="btn btn-danger fw-bold">Start Teaching Today</a>
+          </div>
+          <div class="col-md-6">
+            <img src="image/herobanner-lina.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section>
+     <div class="container-fluid py-lg-8 mt-5">
+      <div class="container">
+        <div class="row">
+          
+        </div>
+      </div>
+  
+     </div>
+    </section>
+  
+      
+  
+  </body>
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container-fluid my-5">
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #45526e"
+          >
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Course Step Academy
+            </h6>
+            <p>
+              Education is the cornerstone of personal and societal development. It provides individuals with the necessary knowledge to understand the world around them, fostering curiosity and a lifelong love for learning.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">PAGES</h6>
+            <p>
+              <a class="text-white">Home</a>
+            </p>
+            <p>
+              <a class="text-white">Student</a>
+            </p>
+            <p>
+              <a class="text-white">Project</a>
+            </p>
+            <p>
+              <a class="text-white">About</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Course
+            </h6>
+            <p>
+              <a class="text-white">Web Developer</a>
+            </p>
+            <p>
+              <a class="text-white">Mobile Developer</a>
+            </p>
+            <p>
+              <a class="text-white">Cyber Security</a>
+            </p>
+            <p>
+              <a class="text-white">Network</a>
+            </p>
+          </div>
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i>123st, Toul kork, Phnom Penh</p>
+            <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> +855 962676441</p>
+            <p><i class="fas fa-print mr-3"></i> +855 962676441</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-3">
+
+      <!-- Section: Copyright -->
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <!-- Grid column -->
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <!-- Copyright -->
+            <div class="p-3">
+              © 2020 Copyright:
+              <a class="text-white" href=""
+                 >Choun Satya</a
+                >
+            </div>
+            <!-- Copyright -->
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+            <!-- Facebook -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-facebook-f"></i
+              ></a>
+
+            <!-- Twitter -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-twitter"></i
+              ></a>
+
+            <!-- Google -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-instagram"></i
+              ></a>
+          </div>
+          <!-- Grid column -->
+        </div>
+      </section>
+      <!-- Section: Copyright -->
+    </div>
+    <!-- Grid container -->
+  </footer>
+  <!-- Footer -->
+</div>
+<!-- End of .container -->
+  
+  <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
